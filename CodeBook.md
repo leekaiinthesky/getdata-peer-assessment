@@ -26,206 +26,206 @@ The script run_analysis.R transforms the raw data into a tidy data set. Please c
 
 Here is a description of each variable in the tidy data set:
 
-- subjectId
+- `subjectId`
 Integer from 1 to 30, representing each of 30 study participants.
 
-- activityLabel
+- `activityLabel`
 Factor spanning six values {WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING}, representing six activities the study participants performed.
 
-- tBodyAccXMean
+- `tBodyAccXMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the accelerometer's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccYMean
+- `tBodyAccYMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the accelerometer's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccZMean
+- `tBodyAccZMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the accelerometer's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccXStd
+- `tBodyAccXStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the accelerometer's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccYStd
+- `tBodyAccYStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the accelerometer's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccZStd
+- `tBodyAccZStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the accelerometer's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tGravityAccXMean
+- `tGravityAccXMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the accelerometer's signal in the X direction attributed to gravity acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tGravityAccYMean
+- `tGravityAccYMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the accelerometer's signal in the Y direction attributed to gravity acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tGravityAccZMean
+- `tGravityAccZMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the accelerometer's signal in the Z direction attributed to gravity acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tGravityAccXStd
+- `tGravityAccXStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the accelerometer's signal in the X direction attributed to gravity acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tGravityAccYStd
+- `tGravityAccYStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the accelerometer's signal in the Y direction attributed to gravity acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tGravityAccZStd
+- `tGravityAccZStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the accelerometer's signal in the Z direction attributed to gravity acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccJerkXMean
+- `tBodyAccJerkXMean`
 Normalized numerical value in the interval [-1, 1], representing the mean over the duration of an observation of the jerk of the accelerometer's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccJerkYMean
+- `tBodyAccJerkYMean`
 Normalized numerical value in the interval [-1, 1], representing the mean over the duration of an observation of the jerk of the accelerometer's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccJerkZMean
+- `tBodyAccJerkZMean`
 Normalized numerical value in the interval [-1, 1], representing the mean over the duration of an observation of the jerk of the accelerometer's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccJerkXStd
+- `tBodyAccJerkXStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the jerk of the accelerometer's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccJerkYStd
+- `tBodyAccJerkYStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the jerk of the accelerometer's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccJerkZStd
+- `tBodyAccJerkZStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the jerk of the accelerometer's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroXMean
+- `tBodyGyroXMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the gyroscope's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroYMean
+- `tBodyGyroYMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the gyroscope's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroZMean
+- `tBodyGyroZMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the gyroscope's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroXStd
+- `tBodyGyroXStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the gyroscope's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroYStd
+- `tBodyGyroYStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the gyroscope's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroZStd
+- `tBodyGyroZStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the gyroscope's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroJerkXMean
+- `tBodyGyroJerkXMean`
 Normalized numerical value in the interval [-1, 1], representing the mean over the duration of an observation of the jerk of the gyroscope's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroJerkYMean
+- `tBodyGyroJerkYMean`
 Normalized numerical value in the interval [-1, 1], representing the mean over the duration of an observation of the jerk of the gyroscope's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroJerkZMean
+- `tBodyGyroJerkZMean`
 Normalized numerical value in the interval [-1, 1], representing the mean over the duration of an observation of the jerk of the gyroscope's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroJerkXStd
+- `tBodyGyroJerkXStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the jerk of the gyroscope's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroJerkYStd
+- `tBodyGyroJerkYStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the jerk of the gyroscope's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroJerkZStd
+- `tBodyGyroJerkZStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the jerk of the gyroscope's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccMagMean
+- `tBodyAccMagMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the total magnitude of the accelerometer's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccMagStd
+- `tBodyAccMagStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the total magnitude of the accelerometer's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tGravityAccMagMean
+- `tGravityAccMagMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the total magnitude of the accelerometer's signal attributed to gravity acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tGravityAccMagStd
+- `tGravityAccMagStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the total magnitude of the accelerometer's signal attributed to gravity acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccJerkMagMean
+- `tBodyAccJerkMagMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the total magnitude of the jerk of the accelerometer's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyAccJerkMagStd
+- `tBodyAccJerkMagStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the total magnitude of the jerk of the accelerometer's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroMagMean
+- `tBodyGyroMagMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the total magnitude of the gyroscope's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroMagStd
+- `tBodyGyroMagStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation value over the duration of an observation of the total magnitude of the gyroscope's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroJerkMagMean
+- `tBodyGyroJerkMagMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value over the duration of an observation of the total magnitude of the jerk of the gyroscope's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- tBodyGyroJerkMagStd
+- `tBodyGyroJerkMagStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation over the duration of an observation of the total magnitude of the jerk of the gyroscope's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccXMean
+- `fBodyAccXMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the accelerometer's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccYMean
+- `fBodyAccYMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the accelerometer's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccZMean
+- `fBodyAccZMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the accelerometer's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccXStd
+- `fBodyAccXStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the accelerometer's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccYStd
+- `fBodyAccYStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the accelerometer's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccZStd
+- `fBodyAccZStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the accelerometer's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccJerkXMean
+- `fBodyAccJerkXMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the jerk of the accelerometer's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccJerkYMean
+- `fBodyAccJerkYMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the jerk of the accelerometer's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccJerkZMean
+- `fBodyAccJerkZMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the jerk of the accelerometer's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccJerkXStd
+- `fBodyAccJerkXStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the jerk of the accelerometer's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccJerkYStd
+- `fBodyAccJerkYStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the jerk of the accelerometer's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccJerkZStd
+- `fBodyAccJerkZStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the jerk of the accelerometer's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyGyroXMean
+- `fBodyGyroXMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the gyroscope's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyGyroYMean
+- `fBodyGyroYMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the gyroscope's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyGyroZMean
+- `fBodyGyroZMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the gyroscope's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyGyroXStd
+- `fBodyGyroXStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the gyroscope's signal in the X direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyGyroYStd
+- `fBodyGyroYStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the gyroscope's signal in the Y direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyGyroZStd
+- `fBodyGyroZStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the gyroscope's signal in the Z direction attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccMagMean
+- `fBodyAccMagMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the total magnitude of the accelerometer's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccMagStd
+- `fBodyAccMagStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the total magnitude of the accelerometer's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccJerkMagMean
+- `fBodyAccJerkMagMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the total magnitude of the jerk of the accelerometer's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyAccJerkMagStd
+- `fBodyAccJerkMagStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the total magnitude of the jerk of the accelerometer's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyGyroMagMean
+- `fBodyGyroMagMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the total magnitude of the gyroscope's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyGyroMagStd
+- `fBodyGyroMagStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the total magnitude of the gyroscope's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyGyroJerkMagMean
+- `fBodyGyroJerkMagMean`
 Normalized numerical value in the interval [-1, 1], representing the mean value of the fast Fourier transformation of the total magnitude of the jerk of the gyroscope's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
 
-- fBodyGyroJerkMagStd
+- `fBodyGyroJerkMagStd`
 Normalized numerical value in the interval [-1, 1], representing the standard deviation of the fast Fourier transformation of the total magnitude of the jerk of the gyroscope's signal attributed to body acceleration. This column contains the average value over all observations for a given subject and activity.
