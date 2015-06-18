@@ -1,4 +1,6 @@
-For information about this project and its data sets, please consult **[`CodeBook.md`](CodeBook.md)**. This README.md file concerns the R script `run_analysis.R` that transforms the raw data set into the tidy data set.
+### README.md
+
+For information about this project and its data sets, please consult **[`CodeBook.md`](CodeBook.md)**. This `README.md`.md file concerns the R script `run_analysis.R` that transforms the raw data set into the tidy data set.
 
 The script assumes the working directory contains a subdirectory `UCI HAR Dataset` which contains the raw data.
 
