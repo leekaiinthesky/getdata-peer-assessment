@@ -11,3 +11,5 @@ Then it adds two columns to the data frame containing the feature labels, one co
 Next the script loads the train and test data using the column names and classes we specify. We also turn convert the activity data from a numerical type into a factor, since it is categorical in nature, and combine all the train and test data including into a single data frame.
 
 Finally, we group by the subject ID and activity label of the data and calculate the mean of all the other measurements. The result is the tidy data set and is written out to mean_by_subject_by_activity.txt.
+
+This file can be loaded in R with `read.table("mean_by_subject_by_activity.txt", header=TRUE)`.
