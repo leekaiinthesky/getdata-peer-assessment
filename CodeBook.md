@@ -2,9 +2,9 @@
 
 This repository contains my submission for the peer review assignment of the Coursera course Getting and Cleaning Data (https://class.coursera.org/getdata-015).
 
-For this assignment, raw data was transformed into a tidy data set using the enclosed script run_analysis.R.
+For this assignment, raw data was transformed into a tidy data set using the enclosed script `run_analysis.R`.
 
-The tidy data result is stored as mean_by_subject_by_activity.txt. 
+The tidy data result is stored as `mean_by_subject_by_activity.txt`.
 
 ## Description of the Raw Data
 
@@ -22,7 +22,7 @@ The raw data include for each observation a 561-feature vector whose values are 
 
 ## Description of the Tidy Data
 
-The script run_analysis.R transforms the raw data into a tidy data set. Please consult README.md for a description of how the script works.
+The script `run_analysis.R` transforms the raw data into a tidy data set. Please consult [`README.md`](README.md) for a description of how the script works.
 
 Here is a description of each variable in the tidy data set:
 
