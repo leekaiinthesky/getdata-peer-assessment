@@ -33,6 +33,6 @@ y_test_factor <- factor(y_test$activityId, labels=activity_labels$activityLabel)
 data <- rbind(cbind(subject_train, X_train, activityLabel=y_train_factor), cbind(subject_test, X_test, activityLabel=y_test_factor))
 
 ### Aggregate by subjectId and activityLabel
-mean_by_subject_by_activity <- aggregate(data[, !colnames(data) %in% c("subjectId", "activityLabel")], list(subjectId=data$subjectId, activityLabel=data$activityLabel), mean)
+mean_by_subject_by_activity <- aggregate(. ~ subjectId + activityLabel, data, mean)
 
 write.table(mean_by_subject_by_activity, file="mean_by_subject_by_activity.txt", row.names=FALSE)
